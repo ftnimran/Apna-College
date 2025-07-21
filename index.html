@@ -8,41 +8,79 @@
 </head>
 <body>
 
-    <table border="Red 1px solid">
-        <caption>A test table with mergrd cells</caption>
-        <colgroup>
-            <col style="background-color: lightblue;">
-            <col style="background-color: lightgreen;">
-            <col style="background-color: lightcoral;">
-            <col style="background-color: lightyellow;">
-        </colgroup>
-        <thead>
-            <tr>
-                <th rowspan="2"></th>
-                <th colspan="2">Average</th>
-                <th rowspan="2">Red eyes</th>
-            </tr>
-             <tr>
-                <th>Hight</th>
-                <th>Weigth</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>male</td>
-                <td>1.9</td>
-                <td>0.003</td>
-                <td>40%</td>
-            </tr>
-            <tr>
-                <td>Female</td>
-                <td>1.7</td>
-                <td>0.002</td>
-                <td>43%</td>
-            </tr>
-        </tbody>
+    <!-- <form action="server">
+        <div>
+        <label for="username">Username :</label>
+        <input type="text" name="username" id="username" placeholder="Enter Username" required>
+        </div>
 
-    </table>
+        <div>
+        <label for="password">Password :</label>
+        <input type="password" name="pass" id="password" placeholder="Enter Password" required>
+        </div>
+        <hr>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form> -->
+
+
+
+
+
+
+
+<form action="server">
+
+    <h2>Registation Form</h2>
+    <div>
+        <label for="username">Enter Your Name :</label>
+        <input type="text" name="f_nam" id="username" placeholder="First Name">
+        <input type="text" name="l_nam" id="username" placeholder="Last Name">
+    </div>
+    <div>
+        <label for="password">Enter Password :</label>
+        <input type="password" name="pass_n" id="password" placeholder="Enter Password">
+        <input type="password" name="pass_c" id="password" placeholder="Conform Password">
+    </div>
+    <div>
+        <input type="checkbox" name="age" id="age" value="18+">
+        <label for="agg">I am 18+</label>
+        <br>
+        <input type="checkbox" name="" id="trem" value="agree">
+        <label for="trem">I agree to trem &amp; condition.</label>
+    </div>
+    <div>
+        <label for="gender">Choose Your Gender :</label>
+        <input type="radio" name="gen" id="gender">
+        <label for="gender">Male</label>
+        <input type="radio" name="gen" id="gender">
+        <label for="gender">Female</label>
+    </div>
+    <div>
+        <label for="subject">Choose Your Subject :</label>
+        <select name="sub" id="subject">
+            <option >Choose Option</option>
+            <option value="urdu">Urdu</option>
+            <option value="hindi">Hindi</option>
+            <option value="english">English</option>
+        </select>
+    </div>
+    <!-- <div>
+        <label for=""></label>
+        <input type="range" name="" id="">
+    </div> -->
+
+    <label for=""></label>
+    <input type="text" name="" id="">
+
+
+
+    <button type="submit">Register</button>
+</form>
+
+
+
+   
     
 </body>
 </html>
