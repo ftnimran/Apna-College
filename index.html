@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apna Collage Classes</title>
+    <link rel="icon" href="image/icon_02.png">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- <form action="server">
@@ -23,62 +26,56 @@
         <button type="reset">Reset</button>
     </form> -->
 
+    <form action="server">
 
+        <h2>Registation Form</h2>
 
+        <div>
+            <label for="username">Enter Your Name :</label>
+            <input type="text" name="f_nam" id="username" placeholder="First Name">
+            <input type="text" name="l_nam" id="username" placeholder="Last Name">
+        </div>
+        <div>
+            <label for="password">Enter Password :</label>
+            <input type="password" name="pass_n" id="password" placeholder="Enter Password">
+            <input type="password" name="pass_c" id="password" placeholder="Conform Password">
+        </div>
+        <div>
+            <input type="checkbox" name="age" id="age" value="18+">
+            <label for="agg">I am 18+</label>
+            <br>
+            <input type="checkbox" name="" id="trem" value="agree">
+            <label for="trem">I agree to trem &amp; condition.</label>
+        </div>
+        <div>
+            <label for="gender">Choose Your Gender :</label>
+            <input type="radio" name="gen" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" name="gen" id="gender">
+            <label for="gender">Female</label>
+        </div>
+        <div>
+            <label for="subject">Choose Your Subject :</label>
+            <select name="sub" id="subject">
+                <option>Choose Option</option>
+                <option value="urdu">Urdu</option>
+                <option value="hindi">Hindi</option>
+                <option value="english">English</option>
+            </select>
+        </div>
+        <div>
+            <label for="volume">select Volume Range :</label>
+            <input type="range" name="volume" id="volume" min="0" max="100" step="5" value="5">
+        </div>
+        <div>
+            <label for="feedback">Write a feedback</label>
+            <textarea name="feedbc" id="feedback" placeholder="Write a feedback" rows="10" cols="100"></textarea>
+        </div>
 
+        <button type="submit">Register</button>
 
-
-
-<form action="server">
-
-    <h2>Registation Form</h2>
-    <div>
-        <label for="username">Enter Your Name :</label>
-        <input type="text" name="f_nam" id="username" placeholder="First Name">
-        <input type="text" name="l_nam" id="username" placeholder="Last Name">
-    </div>
-    <div>
-        <label for="password">Enter Password :</label>
-        <input type="password" name="pass_n" id="password" placeholder="Enter Password">
-        <input type="password" name="pass_c" id="password" placeholder="Conform Password">
-    </div>
-    <div>
-        <input type="checkbox" name="age" id="age" value="18+">
-        <label for="agg">I am 18+</label>
-        <br>
-        <input type="checkbox" name="" id="trem" value="agree">
-        <label for="trem">I agree to trem &amp; condition.</label>
-    </div>
-    <div>
-        <label for="gender">Choose Your Gender :</label>
-        <input type="radio" name="gen" id="gender">
-        <label for="gender">Male</label>
-        <input type="radio" name="gen" id="gender">
-        <label for="gender">Female</label>
-    </div>
-    <div>
-        <label for="subject">Choose Your Subject :</label>
-        <select name="sub" id="subject">
-            <option >Choose Option</option>
-            <option value="urdu">Urdu</option>
-            <option value="hindi">Hindi</option>
-            <option value="english">English</option>
-        </select>
-    </div>
-    <div>
-        <label for="volume">select Volume Range :</label>
-        <input type="range" name="volume" id="volume" min="0" max="100" step="5" value="5">
-    </div>
-    <div>
-        <label for="feedback">Write a feedback</label>
-        <textarea name="feedbc" id="feedback" placeholder="Write a feedback" rows="10" cols="100"></textarea>
-    </div>
-
-
-
-    <button type="submit">Register</button>
-</form>
-
+    </form>
 
 </body>
+
 </html>
