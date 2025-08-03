@@ -1,11 +1,25 @@
-h1{
-    font-family: league spartan;
-    color: #ffa511;
-    text-align: center;
-    font-size: 55px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    line-height: 1.5;
-    text-decoration: underline double teal;
-    text-transform: uppercase;
+.main_div{
+    border: 1px solid black;
+    height: 200px;
+    width: 80px;
+}
+
+.main_div div{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.main_div .light_1{
+    background-color: red;
+}
+
+.main_div .light_2{
+    background-color: yellow;
+}
+
+.light_3{
+    background-color: green ;
 }
